@@ -37,3 +37,32 @@ shareButton.addEventListener('click', event => {
         shareDialog.classList.add('is-open');
     }
 });
+
+
+
+
+
+
+<script language="javascript" type="text/javascript">
+          window.onload = function() {
+   var btnRelease = document.getElementById('<%= btnRelease.ClientID %>');
+                  
+//Find the button set null value to click event and alert will not appear for that specific button
+
+                  function setGlobal() {
+                      window.onbeforeunload = null;
+                  }
+                  $(btnRelease).click(setGlobal);
+
+ // Alert will not appear for all links on the page
+                  $('a').click(function() {
+                      window.onbeforeunload = null;
+
+                  });
+                  window.onbeforeunload = function() {
+                          return 'Are you sure you want to leave this page?';
+                  };
+             
+          };
+      }   
+ </script>
