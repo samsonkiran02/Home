@@ -43,7 +43,6 @@ shareButton.addEventListener('click', event => {
 
 
 
-<script language="javascript" type="text/javascript">
           window.onload = function() {
    var btnRelease = document.getElementById('<%= btnRelease.ClientID %>');
                   
@@ -65,4 +64,4 @@ shareButton.addEventListener('click', event => {
              
           };
       }   
- </script>
+ 
