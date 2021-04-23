@@ -20,7 +20,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-/* for navigation menu-3st click to share */
+/* for navigation menu-3rd click to share */
 
 const shareButton = document.querySelector('.share');
 
