@@ -29,6 +29,8 @@ body {
 }
 
 /* for main in all the page...*/
+/* in html - <div class="main">###<div> */
+
 .main {
   padding: 15px;
   margin-top: 50px;
