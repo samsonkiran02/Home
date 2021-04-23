@@ -35,3 +35,54 @@ body {
   padding: 15px;
   margin-top: 50px;
 }
+
+/* for navigation menu-1st */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: red;
+  overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 10px 30px;
+  text-decoration: none;/
+  font-size: 40px;
+  font-weight: Bold;
+  color: blue;
+
+
+
+
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color:black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  font-size: 40px;
+  font-weight: Bold;
+  margin-left: 3px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
