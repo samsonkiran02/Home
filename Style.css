@@ -13,7 +13,7 @@ body {
 }
 
 .navbar a {
-  float: left;
+  float: center;
   color: blue;
   text-align: center;
   padding: 1px 10px;
