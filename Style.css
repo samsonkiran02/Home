@@ -121,7 +121,7 @@ body {
 /* The popup form - hidden by default */
 .clicktopopup {
   display: none;
-  margin-top:15px;
+  margin-top:50px;
   border: 3px solid red;
   background-color:blue;
   z-index: 9;
