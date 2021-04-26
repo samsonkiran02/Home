@@ -48,7 +48,7 @@ function openform() {
 function closeform() {
   document.getElementById("open-close").style.display = "none";
 }
-</script>
+
 
 
 
