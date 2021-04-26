@@ -1,3 +1,4 @@
+
 /* for navigation bar... */
 
 body {
@@ -12,13 +13,23 @@ body {
   width: 100%;
 }
 
+.sss{
+  position:fixed;
+  margin-top:0px;
+  margin-Right:5px;
+  margin-left:32%;
+  
+}
+
+
+
 .navbar a {
-  float: center;
+  float: left;
   color: blue;
   text-align: center;
   padding: 1px 10px;
-  margin-top: 6px;
-  margin-bottom:−0.3px;
+  margin-top: 3px;
+  margin-bottom:6px;
   text-decoration: none;
   font-size: 35px;
 }
@@ -121,9 +132,9 @@ body {
   position: fixed;
   top: 0px;
   right:0px;
-  width: 30px;
-  height: 30px;
-  font-size: 25px;
+  width: 44px;
+  height: 44px;
+  font-size: 30px;
   border-color:blue;
 
 }
@@ -167,7 +178,6 @@ body {
 #myUL li a:hover:not(.header) {
   background-color: red;
 }
-
 
 
 
