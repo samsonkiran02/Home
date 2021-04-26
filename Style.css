@@ -17,7 +17,7 @@ body {
   position:fixed;
   margin-top:0px;
   margin-Right:5px;
-  margin-left:32%;
+  margin-left:31%;
   
 }
 
@@ -130,7 +130,7 @@ body {
 .searchclosebutton {
   background-color: red;
   position: fixed;
-  top: 0px;
+  top: 44px;
   right:0px;
   width: 44px;
   height: 44px;
