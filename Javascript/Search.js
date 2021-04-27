@@ -1,9 +1,9 @@
 
-document.write( '<a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"closeNav()\">×</a>\n' );
+document.write( '  <a href=\"javascript:void(0)\" class=\"closebtn\" onclick=\"closeNav()\">×</a>\n' );
 document.write( '  <a href=\"Comingsoon.html\">About</a>\n' );
 document.write( '  <a href=\"#\">Services</a>\n' );
 document.write( '  <a href=\"#\">Clients</a>' );
-
+document.write( '  <a href=\"#\">new</a>' );
 
 
 
